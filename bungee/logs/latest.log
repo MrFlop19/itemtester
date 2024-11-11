@@ -49,3 +49,4 @@
 [23:19:41] [Netty Boss IO Thread #0/INFO]: Listening on /127.0.0.1:25577
 [23:19:42] [EaglerXBungee: Network Tick Tasks/INFO] [EaglercraftXBungee]: Loaded certificate: /workspaces/itemtester/bungee/plugins/EaglercraftXBungee/eagcert/$dl.b5049ee521872692a3d307ee115fd91cc8011c69.cert
 [23:19:42] [EaglerXBungee: Network Tick Tasks/INFO] [EaglercraftXBungee]: Loaded certificate: /workspaces/itemtester/bungee/plugins/EaglercraftXBungee/eagcert/$dl.7d457c7c2039ae105d2fdca1b565ffddacf88e08.cert
+[23:22:22] [main/INFO]: Command not found
