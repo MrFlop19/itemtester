@@ -14,8 +14,6 @@ config-version: 8
 settings:
   debug: false
   save-user-cache-on-stop-only: false
-  bungeecord: true
-  late-bind: false
   sample-count: 12
   player-shuffle: 0
   filter-creative-items: true
@@ -34,6 +32,8 @@ settings:
       max: 2048.0
     attackDamage:
       max: 2048.0
+  bungeecord: true
+  late-bind: false
 timings:
   enabled: true
   verbose: true
@@ -45,7 +45,6 @@ timings:
   history-length: 3600
 commands:
   tab-complete: 0
-  log: true
   spam-exclusions:
   - /skill
   silent-commandblock-console: false
@@ -54,6 +53,7 @@ commands:
   - summon
   - testforblock
   - tellraw
+  log: true
 messages:
   whitelist: You are not whitelisted on this server!
   unknown-command: Unknown command. Type "/help" for help.
