@@ -1,0 +1,42 @@
+KnockbackStick:
+  Enabled: true
+  Shapeless: false
+  Item: STICK
+  Item-Damage: none
+  Amount: 1
+  Placeable: false
+  Ignore-Data: false
+  Ignore-Model-Data: false
+  Custom-Tagged: true
+  Identifier: KNOCKBACK_STICK
+  Converter: none
+  Permission: crecipe.recipe.knockbackstick
+  Name: '&rKnockback Stick'
+  Lore:
+  - ' '
+  - '&7"The stick of extreme knockback."'
+  - ' '
+  - '&b&lRare'
+  Effects:
+  - POISON:20:2
+  Hide-Enchants: false
+  Enchantments:
+  - KNOCKBACK:10
+  ItemCrafting:
+  - DDD
+  - DSD
+  - DDD
+  Ingredients:
+    D:
+      Material: DIAMOND_BLOCK
+      Identifier: none
+      Amount: 4
+    S:
+      Material: STICK
+      Identifier: none
+      Amount: 1
+  Custom-Tags: []
+  Item-Flags: []
+  Attribute: []
+  Custom-Model-Data: none
+  Disabled-Worlds: []

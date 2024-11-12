@@ -7401,6 +7401,13 @@ halloweenify:
         - 'PUMPKIN:80 %victim%'
         - 'MESSAGE:&e&l** HALLOWEENIFY ** %victim%'
         - 'PLAY_SOUND_OUTLOUD:ANVIL_DROP'
+    100:
+      chance: 100
+      cooldown: 0
+      effects:
+        - 'PUMPKIN:80 %victim%'
+        - 'MESSAGE:&e&l** HALLOWEENIFY ** %victim%'
+        - 'PLAY_SOUND_OUTLOUD:ANVIL_DROP'
 markofthebeast:
   display: '%group-color%Mark of the Beast'
   description: "Once an enemy is afflicted with the mark\nall incoming damage is increased by 2x for\nup to 5 seconds"

@@ -1,0 +1,44 @@
+Halloweenifier:
+  Enabled: true
+  Shapeless: true
+  Item: PUMPKIN
+  Item-Damage: none
+  Amount: 1
+  Placeable: false
+  Ignore-Data: false
+  Ignore-Model-Data: false
+  Custom-Tagged: true
+  Identifier: HALLOWEENIFIER
+  Converter: none
+  Permission: crecipe.recipe.halloweenifier
+  Name: '&r&6Halloweenifier'
+  Lore:
+  - ' '
+  - '&6"The easiest way to get the Halloweenify'
+  - '&6enchant, and the stupidest thing in existence."'
+  - ' '
+  - '&e&l&k|&k&e&lSpecial&k|'
+  Effects:
+  - POISON:20:2
+  Hide-Enchants: false
+  Enchantments:
+  - SHARPNESS:5
+  - HALLOWEENIFY:5
+  ItemCrafting:
+  - WWW
+  - WPW
+  - WWW
+  Ingredients:
+    W:
+      Material: NETHER_STAR
+      Identifier: none
+      Amount: 1
+    P:
+      Material: PUMPKIN
+      Identifier: none
+      Amount: 1
+  Custom-Tags: []
+  Item-Flags: []
+  Attribute: []
+  Custom-Model-Data: none
+  Disabled-Worlds: []
