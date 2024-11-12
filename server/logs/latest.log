@@ -1370,3 +1370,80 @@ expected <block end>, but found Scalar
 [05:22:36] [Server thread/WARN]: [CustomRecipes] Could not find configuration section HavenBag in the recipe file that must match its filename: HavenBag.yml - (CaSeSeNsItIvE) - Skipping this recipe
 [05:22:36] [Server thread/INFO]: [0;32;1mSuccessfully reloaded Custom Recipes with[0;31;1m 13 [0;32;1mrecipes![m
 
+[05:24:49] [Server thread/INFO]: MrFlop lost connection: Disconnected
+[05:24:49] [Server thread/INFO]: MrFlop left the game.
+[05:24:49] [Craft Scheduler Thread - 84/INFO]: [UltimateCore-Souls] Saved data of player MrFlop to database.
+[05:24:55] [Server thread/INFO]: Stopping the server
+[05:24:55] [Server thread/INFO]: Stopping server
+[05:24:55] [Server thread/INFO]: [UltimateCore-Menu] Disabling UltimateCore-Menu v5.2.8
+[05:24:55] [Server thread/INFO]: [UltimateCore-Menu] UltimateCore-Menu Disabled!
+[05:24:55] [Server thread/INFO]: [UltimateCore-Pets] Disabling UltimateCore-Pets v5.2.8
+[05:24:55] [Server thread/INFO]: [UltimateCore-Pets] UltimateCore-Pets Disabled!
+[05:24:55] [Server thread/INFO]: [UltimateCore-Runes] Disabling UltimateCore-Runes v5.2.8
+[05:24:55] [Server thread/INFO]: [UltimateCore-Runes] UltimateCore-Runes Disabled!
+[05:24:55] [Server thread/INFO]: [UltimateCore-Reforge] Disabling UltimateCore-Reforge v5.2.8
+[05:24:55] [Server thread/INFO]: [UltimateCore-Reforge] UltimateCore-Reforge Disabled!
+[05:24:55] [Server thread/INFO]: [UltimateCore-Talismans] Disabling UltimateCore-Talismans v5.2.8
+[05:24:55] [Server thread/INFO]: [UltimateCore-Talismans] Closing SQL Connection
+[05:24:55] [Server thread/INFO]: [UltimateCore-Talismans] UltimateCore-Talismans Disabled!
+[05:24:55] [Server thread/INFO]: [UltimateCore-Skills] Disabling UltimateCore-Skills v5.2.8
+[05:24:55] [Server thread/INFO]: [UltimateCore-Skills] Closing SQL Connection
+[05:24:55] [Server thread/INFO]: [UltimateCore-Skills] UltimateCore-Skills Disabled!
+[05:24:55] [Server thread/INFO]: [UltimateCore-Enchantment] Disabling UltimateCore-Enchantment v5.2.8
+[05:24:55] [Server thread/INFO]: [UltimateCore-Enchantment] UltimateCore-Enchantment Disabled!
+[05:24:55] [Server thread/INFO]: [CustomRecipes] Disabling CustomRecipes v1.9.7
+[05:24:55] [Server thread/INFO]: [AuthMe] Disabling AuthMe v5.6.0-bCUSTOM
+[05:24:55] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
+[05:24:55] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-bCUSTOM disabled!
+[05:24:55] [Server thread/INFO]: [AdvancedEnchantments] Disabling AdvancedEnchantments v8.13.8
+[05:24:55] [Server thread/INFO]: [UltimateCore-Dragon] Disabling UltimateCore-Dragon v5.2.8
+[05:24:55] [Server thread/INFO]: Disabling EssentialsSpawn v2.21.0-dev+121-f7a8f86
+[05:24:55] [Server thread/INFO]: Disabling EssentialsAntiBuild v2.21.0-dev+115-6157668
+[05:24:55] [Server thread/INFO]: Disabling EssentialsGeoIP v2.21.0-dev+115-6157668
+[05:24:55] [Server thread/INFO]: Disabling EssentialsChat v2.21.0-dev+115-6157668
+[05:24:55] [Server thread/INFO]: [UltimateCore-Souls] Disabling UltimateCore-Souls v5.2.8
+[05:24:55] [Server thread/INFO]: [UltimateCore-Souls] [PLUGIN DISABLE] Saving all player data
+[05:24:55] [Server thread/INFO]: [UltimateCore-Souls] [PLUGIN DISABLE] Saved all player data to database - souls
+[05:24:55] [Server thread/INFO]: [UltimateCore-Souls] Closing SQL Connection
+[05:24:55] [Server thread/INFO]: [UltimateCore-Souls] UltimateCore-Souls Disabled!
+[05:24:55] [Server thread/INFO]: [UltimateCore-Alchemy] Disabling UltimateCore-Alchemy v5.2.8
+[05:24:55] [Server thread/INFO]: [UltimateCore-Alchemy] UltimateCore-Alchemy Disabled!
+[05:24:55] [Server thread/INFO]: Disabling EssentialsProtect v2.21.0-dev+115-6157668
+[05:24:55] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.3.0
+[05:24:55] [Server thread/INFO]: [UltimateCore-Anvil] Disabling UltimateCore-Anvil v5.2.8
+[05:24:55] [Server thread/INFO]: [UltimateCore-Anvil] UltimateCore-Anvil Disabled!
+[05:24:55] [Server thread/INFO]: [UltimateCore-Collections] Disabling UltimateCore-Collections v5.2.8
+[05:24:55] [Server thread/INFO]: [UltimateCore-Collections] UltimateCore-Collections Disabled!
+[05:24:55] [Server thread/INFO]: Disabling Essentials v2.21.0-dev+115-6157668
+[05:24:55] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.4.146
+[05:24:55] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[05:24:55] [Server thread/INFO]: [LuckPerms] Closing storage...
+[05:24:55] [Server thread/INFO]: [LuckPerms] Goodbye!
+[05:24:55] [Server thread/INFO]: [UltimateCore] Disabling UltimateCore v5.2.8
+[05:24:55] [Server thread/INFO]: [ViaVersion] Disabling ViaVersion v5.1.1
+[05:24:55] [Server thread/INFO]: [ViaVersion] ViaVersion is disabling. If this is a reload and you experience issues, please reboot instead.
+[05:24:55] [Server thread/INFO]: [ViaVersion] ViaVersion has been disabled; uninjected the platform and shut down the scheduler.
+[05:24:55] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v6.4
+[05:24:55] [Server thread/INFO]: [0;36;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+
+[05:24:55] [Server thread/INFO]: [0;36;1m[21m[SimpleTpa] Simple Tpa has been disabled on version 6.4[m
+
+[05:24:55] [Server thread/INFO]: [ItemEdit] Disabling ItemEdit v3.5.2
+[05:24:55] [Server thread/INFO]: [SimpleHomes] Disabling SimpleHomes v2.2
+[05:24:55] [Server thread/INFO]: [SuperiorSkyblock2] Disabling SuperiorSkyblock2 v2024.3
+[05:24:55] [Server thread/INFO]: [SuperiorSkyblock2] Disabling the module bank...
+[05:24:55] [Server thread/INFO]: [SuperiorSkyblock2] Disabling the module missions...
+[05:24:55] [Server thread/INFO]: [SuperiorSkyblock2] Disabling the module nashorn-engine...
+[05:24:55] [Server thread/INFO]: [SuperiorSkyblock2] Disabling the module generators...
+[05:24:55] [Server thread/INFO]: [SuperiorSkyblock2] Disabling the module upgrades...
+[05:24:55] [Server thread/INFO]: [SuperiorSkyblock2] Shutting down calculation task...
+[05:24:55] [Server thread/INFO]: [SuperiorSkyblock2] Shutting down executor
+[05:24:55] [Server thread/INFO]: [SuperiorSkyblock2] Shutting down database executor
+[05:24:56] [Server thread/INFO]: [SuperiorSkyblock2] Closing database. This may hang the server. Do not shut it down, or data may get lost.
+[05:24:56] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1;no_git_id
+[05:24:56] [Server thread/INFO]: Saving players
+[05:24:56] [Server thread/INFO]: Saving worlds
+[05:24:56] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[05:24:57] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
+[05:24:57] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End
+[05:24:57] [Server thread/INFO]: Saving chunks for level 'SuperiorWorld'/Overworld

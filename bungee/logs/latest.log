@@ -64,3 +64,6 @@
 [05:08:25] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:58340]: Logged in as 'MrFlop'
 [05:08:25] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:58340|MrFlop] -> UpstreamBridge has connected
 [05:08:25] [Netty Worker IO Thread #0/INFO]: [MrFlop|/[0:0:0:0:0:0:0:1%0]:58340] <-> ServerConnector [lobby] has connected
+[05:24:49] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:58340|MrFlop] -> UpstreamBridge has disconnected
+[05:24:49] [Netty Worker IO Thread #0/INFO]: [MrFlop] disconnected with: Proxy lost connection to server.
+[05:24:49] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:58340|MrFlop] <-> DownstreamBridge <-> [lobby] has disconnected
