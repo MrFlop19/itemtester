@@ -854,3 +854,519 @@ Caused by: java.lang.ClassNotFoundException: org.bukkit.material.Wood
 [04:52:12] [Server thread/INFO]: MrFlop issued server command: /cr book
 [04:58:27] [Server thread/INFO]: MrFlop issued server command: /gm s
 [04:58:57] [Server thread/INFO]: MrFlop issued server command: /gm c
+[05:01:03] [Server thread/INFO]: [0;31;1mReloading.. please wait[m
+
+[05:01:03] [Server thread/WARN]: [CustomRecipes] Could not find configuration section HavenBag in the recipe file that must match its filename: HavenBag.yml - (CaSeSeNsItIvE) - Skipping this recipe
+[05:01:03] [Server thread/INFO]: [0;32;1mSuccessfully reloaded Custom Recipes with[0;31;1m 13 [0;32;1mrecipes![m
+
+[05:04:34] [Server thread/INFO]: MrFlop lost connection: Disconnected
+[05:04:34] [Server thread/INFO]: MrFlop left the game.
+[05:04:34] [Craft Scheduler Thread - 29/INFO]: [UltimateCore-Souls] Saved data of player MrFlop to database.
+[05:08:25] [Thread-8246/INFO]: UUID of player MrFlop is 52138ced-207e-3c03-b2ae-a0eec499a912
+[05:08:25] [Server thread/INFO]: MrFlop[/[0:0:0:0:0:0:0:1]:50110] logged in with entity id 2312 at ([world]21.243008791940937, 81.14142698180359, 296.56933853405536)
+[05:08:25] [Craft Scheduler Thread - 55/WARN]: Unable to fetch GeoIP data for MrFlop. Please ensure that your license key and configuration are correct.
+[05:08:29] [Craft Scheduler Thread - 56/INFO]: [AuthMe] The user MrFlop has 2 accounts:
+[05:08:29] [Craft Scheduler Thread - 56/INFO]: [AuthMe] §7_questionmark_, §aMrFlop§7.
+[05:08:29] [Craft Scheduler Thread - 56/INFO]: [AuthMe] MrFlop logged in 0:0:0:0:0:0:0:1
+[05:08:30] [Craft Scheduler Thread - 29/INFO]: [UltimateCore-Souls] Loaded Souls of player MrFlop from database
+[05:08:42] [Server thread/INFO]: MrFlop issued server command: /cr book
+[05:11:16] [Server thread/INFO]: MrFlop issued server command: /cr book
+[05:18:01] [Server thread/INFO]: [0;31;1mReloading.. please wait[m
+
+[05:18:01] [Server thread/ERROR]: Cannot load plugins/CustomRecipes/recipes/Adventurer's Blade.yml
+org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
+ in 'string', line 2, column 3:
+      Enabled: true
+      ^
+expected <block end>, but found Scalar
+ in 'string', line 14, column 25:
+      Name: '&r&6Adventurer's Blade'
+                            ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:57) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:226) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:169) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:180) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at me.mehboss.recipe.Main.saveAllCustomYml(Main.java:194) ~[?:?]
+	at me.mehboss.recipe.Main.reload(Main.java:334) ~[?:?]
+	at me.mehboss.commands.GiveRecipe.onCommand(GiveRecipe.java:109) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:146) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.dispatchCommand(CraftServer.java:666) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.dispatchServerCommand(CraftServer.java:629) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.aO(DedicatedServer.java:416) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:379) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: org.yaml.snakeyaml.parser.ParserException: while parsing a block mapping
+ in 'string', line 2, column 3:
+      Enabled: true
+      ^
+expected <block end>, but found Scalar
+ in 'string', line 14, column 25:
+      Name: '&r&6Adventurer's Blade'
+                            ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:570) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:143) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:224) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:155) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:229) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:155) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:122) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:105) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:120) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:450) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:369) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:55) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 15 more
+[05:18:01] [Server thread/WARN]: [CustomRecipes] Could not find configuration section Adventurer's Blade in the recipe file that must match its filename: Adventurer's Blade.yml - (CaSeSeNsItIvE) - Skipping this recipe
+[05:18:01] [Server thread/WARN]: [CustomRecipes] Could not find configuration section HavenBag in the recipe file that must match its filename: HavenBag.yml - (CaSeSeNsItIvE) - Skipping this recipe
+[05:18:01] [Server thread/INFO]: [0;32;1mSuccessfully reloaded Custom Recipes with[0;31;1m 13 [0;32;1mrecipes![m
+
+[05:18:04] [Server thread/INFO]: MrFlop issued server command: /cr book
+[05:18:12] [Server thread/INFO]: MrFlop issued server command: /cr book
+[05:18:26] [Server thread/INFO]: [0;31;1mReloading.. please wait[m
+
+[05:18:26] [Server thread/ERROR]: Cannot load plugins/CustomRecipes/recipes/Adventurer's Blade.yml
+org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
+ in 'string', line 2, column 3:
+      Enabled: true
+      ^
+expected <block end>, but found Scalar
+ in 'string', line 14, column 25:
+      Name: '&r&6Adventurer's Blade'
+                            ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:57) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:226) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:169) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:180) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at me.mehboss.recipe.Main.saveAllCustomYml(Main.java:194) ~[?:?]
+	at me.mehboss.recipe.Main.reload(Main.java:334) ~[?:?]
+	at me.mehboss.commands.GiveRecipe.onCommand(GiveRecipe.java:109) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:146) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.dispatchCommand(CraftServer.java:666) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.dispatchServerCommand(CraftServer.java:629) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.aO(DedicatedServer.java:416) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:379) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: org.yaml.snakeyaml.parser.ParserException: while parsing a block mapping
+ in 'string', line 2, column 3:
+      Enabled: true
+      ^
+expected <block end>, but found Scalar
+ in 'string', line 14, column 25:
+      Name: '&r&6Adventurer's Blade'
+                            ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:570) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:143) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:224) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:155) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:229) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:155) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:122) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:105) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:120) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:450) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:369) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:55) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 15 more
+[05:18:26] [Server thread/WARN]: [CustomRecipes] Could not find configuration section Adventurer's Blade in the recipe file that must match its filename: Adventurer's Blade.yml - (CaSeSeNsItIvE) - Skipping this recipe
+[05:18:26] [Server thread/WARN]: [CustomRecipes] Could not find configuration section HavenBag in the recipe file that must match its filename: HavenBag.yml - (CaSeSeNsItIvE) - Skipping this recipe
+[05:18:26] [Server thread/INFO]: [0;32;1mSuccessfully reloaded Custom Recipes with[0;31;1m 13 [0;32;1mrecipes![m
+
+[05:18:30] [Server thread/INFO]: MrFlop issued server command: /cr book
+[05:18:46] [Server thread/INFO]: [0;31;1mReloading.. please wait[m
+
+[05:18:46] [Server thread/ERROR]: Cannot load plugins/CustomRecipes/recipes/Adventurer's Blade.yml
+org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
+ in 'string', line 2, column 3:
+      Enabled: true
+      ^
+expected <block end>, but found Scalar
+ in 'string', line 14, column 25:
+      Name: '&r&6Adventurer's Blade'
+                            ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:57) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:226) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:169) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:180) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at me.mehboss.recipe.Main.saveAllCustomYml(Main.java:194) ~[?:?]
+	at me.mehboss.recipe.Main.reload(Main.java:334) ~[?:?]
+	at me.mehboss.commands.GiveRecipe.onCommand(GiveRecipe.java:109) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:146) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.dispatchCommand(CraftServer.java:666) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.dispatchServerCommand(CraftServer.java:629) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.aO(DedicatedServer.java:416) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:379) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: org.yaml.snakeyaml.parser.ParserException: while parsing a block mapping
+ in 'string', line 2, column 3:
+      Enabled: true
+      ^
+expected <block end>, but found Scalar
+ in 'string', line 14, column 25:
+      Name: '&r&6Adventurer's Blade'
+                            ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:570) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:143) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:224) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:155) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:229) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:155) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:122) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:105) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:120) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:450) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:369) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:55) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 15 more
+[05:18:46] [Server thread/WARN]: [CustomRecipes] Could not find configuration section Adventurer's Blade in the recipe file that must match its filename: Adventurer's Blade.yml - (CaSeSeNsItIvE) - Skipping this recipe
+[05:18:46] [Server thread/WARN]: [CustomRecipes] Could not find configuration section HavenBag in the recipe file that must match its filename: HavenBag.yml - (CaSeSeNsItIvE) - Skipping this recipe
+[05:18:46] [Server thread/INFO]: [0;32;1mSuccessfully reloaded Custom Recipes with[0;31;1m 13 [0;32;1mrecipes![m
+
+[05:18:49] [Server thread/INFO]: MrFlop issued server command: /cr book
+[05:19:31] [Server thread/INFO]: [0;31;1mReloading.. please wait[m
+
+[05:19:31] [Server thread/ERROR]: Cannot load plugins/CustomRecipes/recipes/Adventurer's Blade.yml
+org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
+ in 'string', line 2, column 3:
+      Enabled: true
+      ^
+expected <block end>, but found Scalar
+ in 'string', line 14, column 25:
+      Name: '&r&6Adventurer's Blade'
+                            ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:57) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:226) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:169) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:180) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at me.mehboss.recipe.Main.saveAllCustomYml(Main.java:194) ~[?:?]
+	at me.mehboss.recipe.Main.reload(Main.java:334) ~[?:?]
+	at me.mehboss.commands.GiveRecipe.onCommand(GiveRecipe.java:109) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:146) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.dispatchCommand(CraftServer.java:666) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.dispatchServerCommand(CraftServer.java:629) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.aO(DedicatedServer.java:416) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:379) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: org.yaml.snakeyaml.parser.ParserException: while parsing a block mapping
+ in 'string', line 2, column 3:
+      Enabled: true
+      ^
+expected <block end>, but found Scalar
+ in 'string', line 14, column 25:
+      Name: '&r&6Adventurer's Blade'
+                            ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:570) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:143) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:224) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:155) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:229) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:155) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:122) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:105) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:120) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:450) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:369) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:55) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 15 more
+[05:19:31] [Server thread/WARN]: [CustomRecipes] Could not find configuration section Adventurer's Blade in the recipe file that must match its filename: Adventurer's Blade.yml - (CaSeSeNsItIvE) - Skipping this recipe
+[05:19:31] [Server thread/WARN]: [CustomRecipes] Could not find configuration section HavenBag in the recipe file that must match its filename: HavenBag.yml - (CaSeSeNsItIvE) - Skipping this recipe
+[05:19:31] [Server thread/INFO]: [0;32;1mSuccessfully reloaded Custom Recipes with[0;31;1m 13 [0;32;1mrecipes![m
+
+[05:19:37] [Server thread/INFO]: [0;31;1mReloading.. please wait[m
+
+[05:19:37] [Server thread/ERROR]: Cannot load plugins/CustomRecipes/recipes/Adventurer's Blade.yml
+org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
+ in 'string', line 2, column 3:
+      Enabled: true
+      ^
+expected <block end>, but found Scalar
+ in 'string', line 14, column 25:
+      Name: '&r&6Adventurer's Blade'
+                            ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:57) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:226) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:169) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:180) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at me.mehboss.recipe.Main.saveAllCustomYml(Main.java:194) ~[?:?]
+	at me.mehboss.recipe.Main.reload(Main.java:334) ~[?:?]
+	at me.mehboss.commands.GiveRecipe.onCommand(GiveRecipe.java:109) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:146) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.dispatchCommand(CraftServer.java:666) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.dispatchServerCommand(CraftServer.java:629) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.aO(DedicatedServer.java:416) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:379) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: org.yaml.snakeyaml.parser.ParserException: while parsing a block mapping
+ in 'string', line 2, column 3:
+      Enabled: true
+      ^
+expected <block end>, but found Scalar
+ in 'string', line 14, column 25:
+      Name: '&r&6Adventurer's Blade'
+                            ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:570) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:143) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:224) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:155) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:229) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:155) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:122) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:105) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:120) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:450) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:369) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:55) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 15 more
+[05:19:37] [Server thread/WARN]: [CustomRecipes] Could not find configuration section Adventurer's Blade in the recipe file that must match its filename: Adventurer's Blade.yml - (CaSeSeNsItIvE) - Skipping this recipe
+[05:19:37] [Server thread/WARN]: [CustomRecipes] Could not find configuration section HavenBag in the recipe file that must match its filename: HavenBag.yml - (CaSeSeNsItIvE) - Skipping this recipe
+[05:19:37] [Server thread/INFO]: [0;32;1mSuccessfully reloaded Custom Recipes with[0;31;1m 13 [0;32;1mrecipes![m
+
+[05:20:27] [Server thread/INFO]: [0;31;1mReloading.. please wait[m
+
+[05:20:27] [Server thread/ERROR]: Cannot load plugins/CustomRecipes/recipes/Adventurer's Blade.yml
+org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
+ in 'string', line 2, column 3:
+      Enabled: true
+      ^
+expected <block end>, but found Scalar
+ in 'string', line 14, column 25:
+      Name: '&r&6Adventurer's Blade'
+                            ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:57) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:226) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:169) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:180) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at me.mehboss.recipe.Main.saveAllCustomYml(Main.java:194) ~[?:?]
+	at me.mehboss.recipe.Main.reload(Main.java:334) ~[?:?]
+	at me.mehboss.commands.GiveRecipe.onCommand(GiveRecipe.java:109) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:146) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.dispatchCommand(CraftServer.java:666) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.dispatchServerCommand(CraftServer.java:629) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.aO(DedicatedServer.java:416) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:379) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: org.yaml.snakeyaml.parser.ParserException: while parsing a block mapping
+ in 'string', line 2, column 3:
+      Enabled: true
+      ^
+expected <block end>, but found Scalar
+ in 'string', line 14, column 25:
+      Name: '&r&6Adventurer's Blade'
+                            ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:570) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:143) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:224) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:155) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:229) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:155) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:122) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:105) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:120) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:450) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:369) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:55) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 15 more
+[05:20:27] [Server thread/WARN]: [CustomRecipes] Could not find configuration section Adventurer's Blade in the recipe file that must match its filename: Adventurer's Blade.yml - (CaSeSeNsItIvE) - Skipping this recipe
+[05:20:27] [Server thread/WARN]: [CustomRecipes] Could not find configuration section HavenBag in the recipe file that must match its filename: HavenBag.yml - (CaSeSeNsItIvE) - Skipping this recipe
+[05:20:27] [Server thread/INFO]: [0;32;1mSuccessfully reloaded Custom Recipes with[0;31;1m 13 [0;32;1mrecipes![m
+
+[05:21:25] [Server thread/INFO]: [0;31;1mReloading.. please wait[m
+
+[05:21:25] [Server thread/ERROR]: Cannot load plugins/CustomRecipes/recipes/AdventurersBlade.yml
+org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
+ in 'string', line 2, column 3:
+      Enabled: true
+      ^
+expected <block end>, but found Scalar
+ in 'string', line 14, column 25:
+      Name: '&r&6Adventurer's Blade'
+                            ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:57) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:226) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:169) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:180) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at me.mehboss.recipe.Main.saveAllCustomYml(Main.java:194) ~[?:?]
+	at me.mehboss.recipe.Main.reload(Main.java:334) ~[?:?]
+	at me.mehboss.commands.GiveRecipe.onCommand(GiveRecipe.java:109) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:146) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.dispatchCommand(CraftServer.java:666) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.dispatchServerCommand(CraftServer.java:629) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.aO(DedicatedServer.java:416) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:379) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: org.yaml.snakeyaml.parser.ParserException: while parsing a block mapping
+ in 'string', line 2, column 3:
+      Enabled: true
+      ^
+expected <block end>, but found Scalar
+ in 'string', line 14, column 25:
+      Name: '&r&6Adventurer's Blade'
+                            ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:570) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:143) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:224) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:155) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:229) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:155) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:122) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:105) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:120) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:450) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:369) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:55) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 15 more
+[05:21:25] [Server thread/WARN]: [CustomRecipes] Could not find configuration section AdventurersBlade in the recipe file that must match its filename: AdventurersBlade.yml - (CaSeSeNsItIvE) - Skipping this recipe
+[05:21:25] [Server thread/WARN]: [CustomRecipes] Could not find configuration section HavenBag in the recipe file that must match its filename: HavenBag.yml - (CaSeSeNsItIvE) - Skipping this recipe
+[05:21:25] [Server thread/INFO]: [0;32;1mSuccessfully reloaded Custom Recipes with[0;31;1m 13 [0;32;1mrecipes![m
+
+[05:22:08] [Server thread/INFO]: [0;31;1mReloading.. please wait[m
+
+[05:22:08] [Server thread/ERROR]: Cannot load plugins/CustomRecipes/recipes/AdventurersBlade.yml
+org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
+ in 'string', line 2, column 3:
+      Enabled: true
+      ^
+expected <block end>, but found Scalar
+ in 'string', line 14, column 25:
+      Name: '&r&6Adventurer's Blade'
+                            ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:57) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:226) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:169) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:180) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at me.mehboss.recipe.Main.saveAllCustomYml(Main.java:194) ~[?:?]
+	at me.mehboss.recipe.Main.reload(Main.java:334) ~[?:?]
+	at me.mehboss.commands.GiveRecipe.onCommand(GiveRecipe.java:109) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:146) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.dispatchCommand(CraftServer.java:666) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.dispatchServerCommand(CraftServer.java:629) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.aO(DedicatedServer.java:416) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:379) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: org.yaml.snakeyaml.parser.ParserException: while parsing a block mapping
+ in 'string', line 2, column 3:
+      Enabled: true
+      ^
+expected <block end>, but found Scalar
+ in 'string', line 14, column 25:
+      Name: '&r&6Adventurer's Blade'
+                            ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:570) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:143) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:224) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:155) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:229) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:155) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:122) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:105) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:120) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:450) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:369) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:55) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 15 more
+[05:22:08] [Server thread/WARN]: [CustomRecipes] Could not find configuration section AdventurersBlade in the recipe file that must match its filename: AdventurersBlade.yml - (CaSeSeNsItIvE) - Skipping this recipe
+[05:22:08] [Server thread/WARN]: [CustomRecipes] Could not find configuration section HavenBag in the recipe file that must match its filename: HavenBag.yml - (CaSeSeNsItIvE) - Skipping this recipe
+[05:22:08] [Server thread/INFO]: [0;32;1mSuccessfully reloaded Custom Recipes with[0;31;1m 13 [0;32;1mrecipes![m
+
+[05:22:36] [Server thread/INFO]: [0;31;1mReloading.. please wait[m
+
+[05:22:36] [Server thread/ERROR]: Cannot load plugins/CustomRecipes/recipes/AdventurersBlade.yml
+org.bukkit.configuration.InvalidConfigurationException: while parsing a block mapping
+ in 'string', line 2, column 3:
+      Enabled: true
+      ^
+expected <block end>, but found Scalar
+ in 'string', line 14, column 25:
+      Name: '&r&6Adventurer's Blade'
+                            ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:57) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:226) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:169) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.configuration.file.YamlConfiguration.loadConfiguration(YamlConfiguration.java:180) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at me.mehboss.recipe.Main.saveAllCustomYml(Main.java:194) ~[?:?]
+	at me.mehboss.recipe.Main.reload(Main.java:334) ~[?:?]
+	at me.mehboss.commands.GiveRecipe.onCommand(GiveRecipe.java:109) ~[?:?]
+	at org.bukkit.command.PluginCommand.execute(PluginCommand.java:45) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:146) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.dispatchCommand(CraftServer.java:666) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.dispatchServerCommand(CraftServer.java:629) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.aO(DedicatedServer.java:416) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:379) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: org.yaml.snakeyaml.parser.ParserException: while parsing a block mapping
+ in 'string', line 2, column 3:
+      Enabled: true
+      ^
+expected <block end>, but found Scalar
+ in 'string', line 14, column 25:
+      Name: '&r&6Adventurer's Blade'
+                            ^
+
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:570) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:158) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.parser.ParserImpl.checkEvent(ParserImpl.java:143) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:224) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:155) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:229) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:155) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.composer.Composer.composeDocument(Composer.java:122) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:105) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.constructor.BaseConstructor.getSingleData(BaseConstructor.java:120) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.Yaml.loadFromReader(Yaml.java:450) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.yaml.snakeyaml.Yaml.load(Yaml.java:369) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:55) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 15 more
+[05:22:36] [Server thread/WARN]: [CustomRecipes] Could not find configuration section AdventurersBlade in the recipe file that must match its filename: AdventurersBlade.yml - (CaSeSeNsItIvE) - Skipping this recipe
+[05:22:36] [Server thread/WARN]: [CustomRecipes] Could not find configuration section HavenBag in the recipe file that must match its filename: HavenBag.yml - (CaSeSeNsItIvE) - Skipping this recipe
+[05:22:36] [Server thread/INFO]: [0;32;1mSuccessfully reloaded Custom Recipes with[0;31;1m 13 [0;32;1mrecipes![m
+

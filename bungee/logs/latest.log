@@ -56,3 +56,11 @@
 [04:30:09] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:33234|MrFlop] -> UpstreamBridge has connected
 [04:30:09] [Netty Worker IO Thread #2/INFO]: [MrFlop|/[0:0:0:0:0:0:0:1%0]:33234] <-> ServerConnector [lobby] has connected
 [04:30:29] [main/INFO]: Command not found
+[05:04:34] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:33234|MrFlop] -> UpstreamBridge has disconnected
+[05:04:34] [Netty Worker IO Thread #2/INFO]: [MrFlop] disconnected with: Proxy lost connection to server.
+[05:04:34] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:33234|MrFlop] <-> DownstreamBridge <-> [lobby] has disconnected
+[05:08:25] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:58340]: Connected via websocket
+[05:08:25] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:58340]: Origin header is https://master101215.github.io
+[05:08:25] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:58340]: Logged in as 'MrFlop'
+[05:08:25] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:58340|MrFlop] -> UpstreamBridge has connected
+[05:08:25] [Netty Worker IO Thread #0/INFO]: [MrFlop|/[0:0:0:0:0:0:0:1%0]:58340] <-> ServerConnector [lobby] has connected
