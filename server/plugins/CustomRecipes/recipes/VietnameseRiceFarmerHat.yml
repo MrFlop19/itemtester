@@ -1,0 +1,45 @@
+VietnameseRiceFarmerHat:
+  Enabled: true
+  Shapeless: false
+  Item: LEATHER_HELMET
+  Item-Damage: none
+  Amount: 1
+  Placeable: false
+  Ignore-Data: false
+  Ignore-Model-Data: false
+  Custom-Tagged: true
+  Durability: '-1'
+  Identifier: RICE_HAT
+  Converter: none
+  Permission: crecipe.recipe.ricehat
+  Name: '&6Vietnamese Rice Farmer Hat'
+  Lore:
+  - '&7"This special hat will protect you from the'
+  - '&7blazing hot sun while working in the rice fields,'
+  - '&7and lessen the damage from american bullets."'
+  Effects:
+  - POISON:20:2
+  Hide-Enchants: false
+  Enchantments:
+  - PROJECTILE_PROTECTION:10
+  - SUN_RESISTANCE:1
+  ItemCrafting:
+  - DDD
+  - XPX
+  - XPX
+  Ingredients:
+    D:
+      Material: DIAMOND
+      Identifier: none
+      Amount: 1
+      Name: Diamond Shrine
+    P:
+      Material: OAK_PLANKS
+      Identifier: none
+      Amount: 1
+      Name: Wooden Board
+  Custom-Tags: []
+  Item-Flags: []
+  Attribute: []
+  Custom-Model-Data: none
+  Disabled-Worlds: []

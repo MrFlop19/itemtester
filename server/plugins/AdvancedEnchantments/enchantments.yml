@@ -7576,3 +7576,16 @@ soulsiphone:
         - 'DAMAGE_ARMOR:30 %attacker%'
         - 'REMOVE_SOULS:200 %attacker%'
         - 'MESSAGE:&4&l** SOUL SIPHONE ** &7(%victim name%)'
+
+antisun:
+  display: '%group-color%Sun Resistance'
+  description: 'Gives permanent sun resistance.'
+  applies-to: 'Armor'
+  type: 'EFFECT_STATIC'
+  group: 'ULTIMATE'
+  applies:
+    - ALL_ARMOR
+  levels:
+    1:
+      effects:
+        - 'POTION:FIRE_RESISTANCE:0'
