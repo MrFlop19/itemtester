@@ -97,3 +97,15 @@ groups:
     item:
       type: BOOK
       rgb-color: 255;0;0
+
+  SPECIAL:
+    global-color: '&f'
+    group-name: SPECIAL
+    slot-increaser:
+      slots: 1
+    magic-dust:
+      success: 1-15
+      chance: 22
+    item:
+      type: BOOK
+      rgb-color: 255;255;255

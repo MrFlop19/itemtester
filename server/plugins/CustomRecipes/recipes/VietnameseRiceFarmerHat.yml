@@ -8,36 +8,33 @@ VietnameseRiceFarmerHat:
   Ignore-Data: false
   Ignore-Model-Data: false
   Custom-Tagged: true
-  Durability: '-1'
   Identifier: RICE_HAT
   Converter: none
   Permission: crecipe.recipe.ricehat
   Name: '&6Vietnamese Rice Farmer Hat'
   Lore:
-  - '&7"This special hat will protect you from the'
-  - '&7blazing hot sun while working in the rice fields,'
-  - '&7and lessen the damage from american bullets."'
+  - '&7"This special hat will help protect you from the'
+  - '&7blazing hot sun and napalm while working in the'
+  - '&7rice fields, and lessen american bullet damage."'
+  - ' '
+  - '&eRacism Set &8(&71/5&8)'
   Effects:
   - POISON:20:2
-  Hide-Enchants: false
+  Hide-Enchants: true
   Enchantments:
-  - PROJECTILE_PROTECTION:10
-  - SUN_RESISTANCE:1
+  - antibullet:1
+  - antifire:1
+  - PROTECTION_PROJECTILE:32767
   ItemCrafting:
-  - DDD
-  - XPX
-  - XPX
+  - HHH
+  - HXH
+  - XXX
   Ingredients:
-    D:
-      Material: DIAMOND
+    H:
+      Material: WHEAT
       Identifier: none
       Amount: 1
-      Name: Diamond Shrine
-    P:
-      Material: OAK_PLANKS
-      Identifier: none
-      Amount: 1
-      Name: Wooden Board
+      Name: Hay Fragment
   Custom-Tags: []
   Item-Flags: []
   Attribute: []

@@ -1,0 +1,43 @@
+TerroristBomberSuit:
+  Enabled: true
+  Shapeless: false
+  Item: LEATHER_CHESTPLATE
+  Item-Damage: none
+  Amount: 1
+  Placeable: false
+  Ignore-Data: false
+  Ignore-Model-Data: false
+  Custom-Tagged: true
+  Identifier: BOMB_SUIT
+  Converter: none
+  Permission: crecipe.recipe.bombsuit
+  Name: '&2Terrorist Bomber Suit'
+  Lore:
+  - '&7"This suit protects you from your own bombs, so'
+  - '&7you can survive your attacks. It will grant you'
+  - '&7extra health, and damping against explosives."'
+  - ' '
+  - '&eRacism Set &8(&72/5&8)'
+  Effects:
+  - POISON:20:2
+  Hide-Enchants: true
+  Enchantments:
+  - antibomb:1
+  - overload:3
+  - godlyoverload:3
+  - PROTECTION_BLAST:32767
+  ItemCrafting:
+  - BXB
+  - BBB
+  - BBB
+  Ingredients:
+    B:
+      Material: TNT
+      Identifier: none
+      Amount: 1
+      Name: Bomb
+  Custom-Tags: []
+  Item-Flags: []
+  Attribute: []
+  Custom-Model-Data: none
+  Disabled-Worlds: []

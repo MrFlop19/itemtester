@@ -1,0 +1,36 @@
+HayFragment:
+  Enabled: true
+  Shapeless: true
+  Item: WHEAT
+  Item-Damage: none
+  Amount: 1
+  Placeable: false
+  Ignore-Data: false
+  Ignore-Model-Data: false
+  Custom-Tagged: true
+  Identifier: HAY_FRAG
+  Converter: none
+  Permission: crecipe.recipe.hayfrag
+  Name: '&6Hay Fragment'
+  Lore:
+  - '&7A fragment of hay...'
+  - '&7I wonder what this could be used for...'
+  Effects:
+  - POISON:20:2
+  Hide-Enchants: true
+  Enchantments:
+  - null
+  ItemCrafting:
+  - HHX
+  - HHX
+  - XXX
+  Ingredients:
+    H:
+      Material: WHEAT
+      Identifier: none
+      Amount: 64
+  Custom-Tags: []
+  Item-Flags: []
+  Attribute: []
+  Custom-Model-Data: none
+  Disabled-Worlds: []

@@ -7577,15 +7577,45 @@ soulsiphone:
         - 'REMOVE_SOULS:200 %attacker%'
         - 'MESSAGE:&4&l** SOUL SIPHONE ** &7(%victim name%)'
 
-antisun:
-  display: '%group-color%Sun Resistance'
-  description: 'Gives permanent sun resistance.'
+antibullet:
+  display: '%group-color%- Anti Bullet'
+  description: "Stops all arrows from dealing damage."
+  applies-to: 'Armor'
+  type: 'DEFENSE_BOW'
+  group: 'SPECIAL'
+  applies:
+    - ALL_ARMOR
+  levels:
+    1:
+      chance: 99.9
+      cooldown: 0
+      effects:
+        - 'STOP_ATTACK'
+        - 'MESSAGE:&f* JUKED * %victim%'
+
+antifire:
+  display: '%group-color%- Anti Fire'
+  description: 'DO NOT USE'
   applies-to: 'Armor'
   type: 'EFFECT_STATIC'
-  group: 'ULTIMATE'
+  group: 'SPECIAL'
   applies:
     - ALL_ARMOR
   levels:
     1:
       effects:
         - 'POTION:FIRE_RESISTANCE:0'
+
+antibomb:
+  display: '%group-color%Anti Bomb'
+  description: "Immunity to explosives."
+  applies-to: 'Armor'
+  type: 'EXPLOSION'
+  group: 'SPECIAL'
+  applies:
+    - ALL_ARMOR
+  levels:
+    1:
+      chance: 99.9
+      effects:
+        - 'STOP_ATTACK'

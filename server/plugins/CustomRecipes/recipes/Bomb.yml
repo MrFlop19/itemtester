@@ -1,0 +1,39 @@
+Bomb:
+  Enabled: true
+  Shapeless: false
+  Item: TNT
+  Item-Damage: none
+  Amount: 1
+  Placeable: false
+  Ignore-Data: false
+  Ignore-Model-Data: false
+  Custom-Tagged: true
+  Identifier: BOMB
+  Converter: none
+  Permission: crecipe.recipe.bomb
+  Name: '&4Bomb'
+  Lore:
+  - '&7Just a normal average bomb.'
+  Effects:
+  - POISON:20:2
+  Hide-Enchants: true
+  Enchantments:
+  - null
+  ItemCrafting:
+  - TTT
+  - TFT
+  - TTT
+  Ingredients:
+    T:
+      Material: TNT
+      Identifier: none
+      Amount: 64
+    F:
+      Material: FLINT_AND_STEEL
+      Identifier: none
+      Amount: 1
+  Custom-Tags: []
+  Item-Flags: []
+  Attribute: []
+  Custom-Model-Data: none
+  Disabled-Worlds: []
